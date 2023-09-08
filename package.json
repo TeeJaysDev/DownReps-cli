@@ -1,18 +1,26 @@
 {
   "name": "downreps-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "Your go-to CLI tool for calculating down workout total reps",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeeJaysDev/DownReps-cli"
+  },
+  "keywords": [
+    "nodejs",
+    "node",
+    "cli",
+    "cli-tools"
+  ],
+  "author": "Tymon 'tajmon' Jędryczka",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.3.0",
-    "chalk-animation": "^2.0.3",
     "figlet": "^1.6.0",
     "gradient": "^0.2.0",
     "inquirer": "^9.2.10",
